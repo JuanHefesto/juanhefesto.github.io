@@ -1,0 +1,43 @@
+body{
+    background: #040736;
+    
+}
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: #040520;
+    padding: 10px;
+    text-align: center;
+    margin: 10PX;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+nav a{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+article img {
+    margin: 20px;
+}
+main{
+    margin: 15px;
+}
+section div h2{
+    background: #040520;
+    padding: 10px;
+    text-align: center;
+    margin: 10PX;
+}
+h3{
+    text-align: center;
+    font-size: 25;
+}
