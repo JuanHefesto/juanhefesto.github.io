@@ -10,16 +10,23 @@ body{
 }
 header{
     background: #040520;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    margin: 10PX;
+    margin: 5PX;
 }
 a{
-    font-size: 18px;
     text-decoration: none;
 }
-nav a{
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul{
     font-size: 20px;
+    width: 200px;
+    background: #040520;
+    text-align: center;
+    padding: 5px;
 }
 h2{
     text-align: center;
@@ -52,7 +59,7 @@ h4{
     font-size: 26px;
 }
 ul{
-    margin: 30px;
+    margin: 10px;
     font-size: 30px;
 }
 hr{
