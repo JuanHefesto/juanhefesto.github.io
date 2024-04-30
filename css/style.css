@@ -80,3 +80,12 @@ table{
     font-size: 30px;
     margin: 15px;
 }
+form{
+    font-size: 30px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+form input{
+color: black;
+}

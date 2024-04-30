@@ -158,6 +158,42 @@
                   <td>East Blue </td>
                 </tr>
               </table>
+              <p>para unir las columnas utilismaos el colspan dontro de la etiqueta TD  </p>
+              <Table border="1">
+                <tr>
+                  <th>Nombre </th>
+                  <th>Apellidos </th>
+                  <th>Pais </th>
+                </tr>
+                <tr>
+                  <td>Juan </td>
+                  <td colspan="2">Ortiz </td>
+                </tr>
+                <tr>
+                  <td colspan="3">Luffy Monkey D</td>
+              </Table>
+              <H2>Formularios</H2>
+              <p>Para crear un formulario en html devemos inciar con la etiqueta from dentro de esta etiqueda colacos lo que queramos en dicho campo  dependiento de nuestras nececidades el sigueinte ejemplo es campo tipo texto con la incial de nombre </p>
+              <ul>
+                <li>para el texto antes del campo usamos la etiqueta label y el texto  </li>
+                <li>para que el campo sea tipo texto usamos un input type="text" </li>
+              </ul>
+              <p>ejemplo:</p>
+              <form>
+                <label> Nombre  </label>
+                <input type="text"/>
+              </form>
+              <h3>Una mejor mananera re hacerlo seria </h3>
+              <ul>
+                <li>label for="" (es el nobre del campo al cual se va la info) </li>
+                <li>input type="text" name="Nombre" (Este se une con for de label para darle nombre a informacion escrita) </li>
+                <li>otro atrubuto para nuestro imput es placeholder podmeos colcoar un texto dentro el formulario el cual se borrar cueando ingresemos datos  </li>
+
+              </ul>
+              <form>
+                <label for="nombre"> Nombre  </label>
+                <input type="text" name="nombre" placeholder="Nombre"/>
+              </form>
              </div>
             </section>
          </article>
