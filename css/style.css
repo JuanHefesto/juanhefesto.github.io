@@ -11,7 +11,6 @@ nav ul li{
     text-align: center;
     padding: 5px;
     list-style: none;
-    
 }
 
 a{
@@ -23,12 +22,14 @@ h1{
   text-align: center;
 
 }
- .borde {
-border-width:10px ;
-border-color: black;
- }
+
 header  h1{
     padding: 10px;
     text-align: center;
     margin: 10PX; 
+
+}
+header {
+    border: 2px solid black;
+    width: 98%;
 }
