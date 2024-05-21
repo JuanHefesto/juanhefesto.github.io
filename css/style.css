@@ -26,10 +26,9 @@ h1{
 header  h1{
     padding: 10px;
     text-align: center;
-    margin: 10PX; 
-
 }
 header {
     border: 2px solid black;
     width: 98%;
+    margin: 0PX auto; 
 }
