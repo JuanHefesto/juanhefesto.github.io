@@ -1,34 +1,26 @@
-*{
-  
+/*Fuentes*/
+@font-face{
+    font-family:"TrebuchetMs";
+    src:url(fonts/TrebuchetMs.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
-nav ul{
-    display: flex;
-    justify-content: center;
+@font-face{
+    font-family:"Bebasneue";
+    src: url(fonts/Bebasneue.otf);
+    font-weight: normal;
+    font-style: normal;
 }
-nav ul li{
-    font-size: 20px;
-    width: 200px;
-    text-align: center;
-    padding: 5px;
-    list-style: none;
+@font-face {
+    font-family: "webSymbolsRegular";
+    src: url(fonts/webSymbols-regular-webfont.eot);
+    src: url(fonts/webSymbols-regular-webfont.eot?#iefix) format(embedded-opentype),
+         url(fonts/webSymbols-regular-webfont.woff) format(woff),
+         url(fonts/webSymbols-regular-webfont.ttf)format(truetype),
+         url(fonts/webSymbols-regular-webfont.svg#WebSymbolsregular) format(svg);
+         font-weight: normal;
+         font-style: normal;
 }
-
-a{
- text-decoration: none;
- font-size: 25px;
- color: black;
-}
-h1{
-  text-align: center;
-
-}
-
-header  h1{
-    padding: 10px;
-    text-align: center;
-}
-header {
-    border: 2px solid black;
-    width: 98%;
-    margin: 0PX auto; 
+.Gear{
+    font-family:'webSymbolsRegular';
 }
