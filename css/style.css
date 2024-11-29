@@ -1,26 +1,35 @@
 /*Fuentes*/
 @font-face{
-    font-family:"TrebuchetMs";
-    src:url(fonts/TrebuchetMs.ttf);
+ font-family:"TrebuchetMS";
+ src: url(fonts/TrebuchetMS.ttf);
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face{
+    font-family:"BebasNeue";
+    src: url(fonts/BebasNeue.otf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
-    font-family:"Bebasneue";
-    src: url(fonts/Bebasneue.otf);
+ font-family: "WebSymbolsRegular";
+ src: url(fonts/websymbols-regular-webfont.eot);
+ src: url(fonts/websymbols-regular-webfont.eot?#iefix) format(embedded-opentype),
+      url(fonts/websymbols-regular-webfont.woff) format(woff),
+      url(fonts/websymbols-regular-webfont.ttf) format(truetype),
+      url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format(svg);
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: "webSymbolsRegular";
-    src: url(fonts/webSymbols-regular-webfont.eot);
-    src: url(fonts/webSymbols-regular-webfont.eot?#iefix) format(embedded-opentype),
-         url(fonts/webSymbols-regular-webfont.woff) format(woff),
-         url(fonts/webSymbols-regular-webfont.ttf)format(truetype),
-         url(fonts/webSymbols-regular-webfont.svg#WebSymbolsregular) format(svg);
-         font-weight: normal;
-         font-style: normal;
+/*GENERALES*/
+*{
+   margin: 0px;
+   padding: 0px;
 }
-.Gear{
-    font-family:'webSymbolsRegular';
+body{
+    background: url("../img/pattern.png");
 }
+.gear{
+    font-family: "WebSymbolsRegular"
+}
+
