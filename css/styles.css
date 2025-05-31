@@ -1,0 +1,129 @@
+@font-face{
+ font-family: "WebSymbolsRegular";
+ src: url(fonts/websymbols-regular-webfont.eot);
+ src: url(fonts/websymbols-regular-webfont.eot?#iefix) format(embedded-opentype),
+      url(fonts/websymbols-regular-webfont.woff) format(woff),
+      url(fonts/websymbols-regular-webfont.ttf) format(truetype),
+      url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+    }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000; /* Fondo negro profundo */
+  overflow: hidden;
+    overflow-y: auto; /* permite el scroll vertical */
+  scroll-behavior: smooth; /* movimiento suave al navegar */
+}
+
+.sky {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: radial-gradient(ellipse at bottom, #0d0d26 0%, #000000 100%);
+}
+
+.stars {
+  width: 2px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow:
+    100px 200px white,
+    300px 400px white,
+    -200px 300px white,
+    400px 100px white,
+    -100px -100px white,
+    250px -250px white,
+    -300px 150px white,
+    -400px -300px white,
+    200px -100px white,
+    -250px -200px white;
+  animation: twinkle 2s infinite ease-in-out alternate;
+  border-radius: 50%;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#header {
+      width: 97%;
+      height: 70px;
+      background: #0d1b2a;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      margin: 20px 0px 0px 25px;
+      border-radius: 7px;
+    }
+#menu{
+    float: right;
+    height: 0px;
+}
+#menu ul{
+  margin: 16px 14px 0px 0px;
+}
+#menu ul li{
+  
+    font-size: 22px;
+    display: inline-block;
+    margin: -20px 20px 0px 20px ;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+#menu ul li a{
+  color: white;
+  text-decoration: none;
+  margin: -8px;
+}
+ .card {
+    margin: 30px 0px 0px 46px;
+    width: 90%;
+      background: #0d1b2a;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      color: white;
+    }
+    .card img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    .card h2 {
+      margin: 0.5em 0;
+    }
+
+    .card a {
+      color: #03a9f4;
+      text-decoration: none;
+    }
+    .card p a{
+      color: white;
+      font-size: 29px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card p a:hover{
+      color: #03a9f4;
+    }
+    .card h3{
+      margin: 0px;
+    }
+  #icon{
+    font-family:WebSymbolsRegular;
+    font-size: 38px;
+    }
+  #correo{
+    margin: 0px 36px 0px 0px;
+  }
